@@ -54,6 +54,7 @@
     <ProjectReference Include="..\..\..\Recompile Attempt\Assembly-CSharp.csproj">
       <Project>{8663f7db-4f95-4946-8917-d882e1417b31}</Project>
       <Name>Assembly-CSharp</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
