@@ -1,0 +1,41 @@
+namespace Verse
+{
+	public enum AltitudeLayer : byte
+	{
+		Terrain,
+		TerrainScatter,
+		Floor,
+		FloorEmplacement,
+		Conduits,
+		Filth,
+		Zone,
+		SmallWire,
+		LowPlant,
+		MoteLow,
+		Shadows,
+		DoorMoveable,
+		Building,
+		BuildingOnTop,
+		MoteBelowThings,
+		Item,
+		ItemImportant,
+		LayingPawn,
+		Projectile,
+		Pawn,
+		PawnUnused,
+		PawnState,
+		Blueprint,
+		MoteOverheadLow,
+		MoteOverhead,
+		Gas,
+		Skyfaller,
+		Weather,
+		LightingOverlay,
+		VisEffects,
+		FogOfWar,
+		WorldClipper,
+		MapDataOverlay,
+		MetaOverlays,
+		_Count
+	}
+}
